@@ -1,0 +1,13 @@
+
+org_settings:
+  fleet_desktop:
+    transparency_url: https://catoftheday.com
+  host_expiry_settings:
+    host_expiry_enabled: true
+    host_expiry_window: 30
+  org_info:
+    org_name: Katsu's Cat Cafe
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.com

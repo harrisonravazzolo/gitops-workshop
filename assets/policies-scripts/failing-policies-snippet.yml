@@ -1,0 +1,5 @@
+  failing_policies_webhook:
+    destination_url: $DOGFOOD_FAILING_POLICIES_WEBHOOK_URL
+    enable_failing_policies_webhook: true
+    host_batch_size: 0
+    policy_ids:
