@@ -1,0 +1,2 @@
+- name: Make script executable
+  run: chmod +x gitops.sh
