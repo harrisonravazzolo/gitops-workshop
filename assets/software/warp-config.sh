@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Configuring WARP! Here's a dino
+echo "Configuring WARP! Here's a dino"
                __
               / _)
      _.----._/ /
