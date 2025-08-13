@@ -1,0 +1,7 @@
+    To workflow.yml, add the snippet after the `checkout` action
+    
+    - name: Run gitops script
+      run: |
+        git update-index --chmod=+x gitops.sh
+        ./gitops.sh
+      shell: bash
