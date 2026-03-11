@@ -1,0 +1,6 @@
+- name: Windows - Antivirus healthy
+  query: SELECT 1 from windows_security_center wsc CROSS JOIN windows_security_products wsp WHERE antivirus = 'Good' AND type = 'Antivirus' AND signatures_up_to_date=1;
+  critical: true
+  description: Checks the status of antivirus and signature updates from the Windows Security Center.
+  resolution: Run all available Windows antivirus updates.
+  platform: windows
